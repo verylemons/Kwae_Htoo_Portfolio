@@ -1,0 +1,89 @@
+body {
+    background-color: #E4D1B9;
+}
+
+.custom-navbar {
+    padding-top: 20px;
+    background-color: #E4D1B9;
+}
+
+.navbar-brand {
+    color: black;
+    margin-left: 100px;
+    font-family: "Instrument Serif", serif;
+    font-size: 30px;
+}
+
+.navbar-toggler {
+    border-color: black;
+}
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(0,0,0,1)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.nav-link {
+    color: black;
+    margin-right: 100px;
+    font-family: "Instrument Serif", serif;
+    font-size: 25px;
+}
+
+.dot-bg {
+    position: relative;
+    width: 100%;
+    height: 500px;
+    margin-left: auto;
+  
+    background-image: radial-gradient(circle, #2a6a87 1.5px, transparent 1px);
+    background-size: 16px 16px;
+}
+
+.about-text {
+    max-width: 600px;
+    margin-left: auto;
+    font-family: "Instrument Serif", serif;
+    font-size: 22px;
+}
+
+#projects {
+    padding-top: 80px;
+}
+
+.p1 {
+    margin-left: 150px;
+    box-shadow: 13px 20px rgb(81, 80, 80);
+}
+.p2 {
+    box-shadow: 13px 20px rgb(81, 80, 80);
+}
+
+.p1-text {
+    max-width: 600px;
+    margin-left: auto;
+    font-family: "Instrument Serif", serif;
+}
+
+a {
+    color: #2a6a87;
+    font-weight: bold;
+}
+a:hover {
+    color: #2a6a87;
+}
+
+.p2-sec {
+    margin-top: 100px;
+}
+
+.p3 {
+    margin-left: 150px;
+}
+
+#contact {
+    padding-top: 50px;
+}
+.end-text{
+    font-size: 30px;
+    font-family: "Instrument Serif", serif;
+}
+
