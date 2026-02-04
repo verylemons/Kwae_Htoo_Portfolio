@@ -87,3 +87,81 @@ a:hover {
     font-family: "Instrument Serif", serif;
 }
 
+
+/* Image container */
+.dot-bg {
+    position: relative;
+    width: 100%;
+    max-width: 500px;
+    height: 520px;
+    margin: auto;
+}
+
+/* Shared image styles */
+.kwae,
+.tape {
+    position: absolute;
+    user-select: none;
+    pointer-events: none;
+}
+
+/* Kwae photos */
+.kwae-1 {
+    width: 200px;
+    top: 100px;
+    left: 55%;
+    transform: rotate(8deg);
+}
+
+.kwae-2 {
+    width: 280px;
+    top: 200px;
+    left: 3%;
+    transform: rotate(-4deg);
+}
+
+.kwae-3 {
+    width: 240px;
+    top: 20px;
+    left: 22%;
+}
+
+/* Tape */
+.tape-1 {
+    width: 140px;
+    top: -8px;
+    left: 18%;
+    transform: rotate(120deg);
+}
+
+.tape-2 {
+    width: 140px;
+    top: 400px;
+    right: 30%;
+    transform: rotate(-20deg);
+}
+
+.tape-3 {
+    width: 140px;
+    top: 220px;
+    right: 25%;
+    transform: rotate(-50deg);
+}
+
+@media (max-width: 768px) {
+    .dot-bg {
+        height: 380px;
+    }
+
+    .kwae-1 {
+        width: 180px;
+        left: 50%;
+        transform: translateX(-50%) rotate(6deg);
+    }
+
+    .kwae-2,
+    .kwae-3,
+    .tape {
+        display: none;
+    }
+}
